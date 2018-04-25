@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+  label {
+    display: block;
+    margin-bottom: 15px;
+  }
+</style>
+<body>
+<form id="interests" action="" method="post">
+  <div class="two-thirds column" id="main">
+    <fieldset>
+      <legend>Жанры</legend>
+      <label><input type="checkbox" value="all" id="all">Любые</label>
+      <label><input type="checkbox" name="genre" value="animation">Анимационные</label>
+      <label><input type="checkbox" name="genre" value="docs">Документальные</label>
+      <label><input type="checkbox" name="genre" value="shorts">Короткометражные</label>
+    </fieldset>
+  </div><!-- .two-thirds -->
+</form>
+
+<script src="index.js"></script>
+</body>
+</html>
