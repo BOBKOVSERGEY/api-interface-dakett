@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .hide {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <form id="how-heard" action="" method="post">
+    <input type="radio" name="heard" value="search" id="search">
+    <label for="search">Поисковая система</label>
+    <br>
+    <input type="radio" name="heard" value="print" id="print">
+    <label for="print">Газета или журнал</label>
+    <br>
+    <input type="radio" name="heard" value="other" id="other">
+    <label for="other">Другое</label>
+    <br>
+    <br>
+    <input type="text" name="other-input" id="other-text">
+    <br>
+    <br>
+    <input type="submit" id="submit" value="Подтвердить">
+  </form>
+  <script src="index.js"></script>
+</body>
+</html>
